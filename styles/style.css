@@ -1,0 +1,95 @@
+/* Geral */
+:root {
+  background-color: rgb(255, 245, 232);
+}
+
+body {
+  font-family: system-ui,sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 111, 185);
+  text-shadow: 3px 2px 1px rgba(1, 18, 28, 0.267);
+}
+
+section {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 17px;
+  margin: 18px;
+}
+
+/* Seção de configuração */
+
+.envolcro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rotulo {
+  position: absolute;
+  background-color: rgb(2, 23, 0);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  top: -90%;
+}
+
+.configs-input {
+  width: 100px;
+  font-size: 18px;
+}
+
+.botao {
+  font-weight: bold;
+  font-size: 32px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.botao-on {
+  background-color: rgb(162, 213, 9);
+  color: rgb(33, 79, 33); 
+}
+
+.botao-on:hover {
+  background-color: rgb(232, 254, 163);
+}
+
+.botao-on:active {
+  color: rgb(232, 254, 163);
+  background-color: rgb(162, 213, 9);
+  border-color: rgb(33, 79, 33); 
+}
+
+.botao-pausar {
+  color: white;
+  background-color: rgb(116, 23, 0);
+  border-radius: 5px;
+  border: 2px solid rgb(26, 6, 1);
+}
+
+.botao-pausar:hover {
+  color: black;
+  background-color: rgb(255, 171, 149);
+}
+
+.pixel {
+  border: 1px solid rgb(1, 39, 64);
+  background-color: rgb(255, 250, 250);
+}
+
+.pixel-on {
+  background-color: rgb(0, 111, 185);
+}
+
+.pixel-off {
+  background-color: rgb(255, 250, 250);
+}

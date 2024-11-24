@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Quadradinhos</title>
+</head>
+<body>
+  <main>
+    <h1>Quadrados Piscantes</h1>
+    <section id="configs">
+      <div class="envolcro">
+        <div class="rotulo">Largura</div>
+        <input id="malha-largura" class="configs-input" type="number" min="0">
+      </div>
+      <div class="envolcro">
+        <div class="rotulo">Altura</div>
+        <input id="malha-altura" class="configs-input"  type="number" min="0">
+      </div>
+      <div class="envolcro">
+        <div class="rotulo">Pixel</div>
+        <input id="dimensao-pixel" class="configs-input" type="number" min="10" placeholder="Tamanho">
+      </div>
+      <button id="botao-ligar" class="botao botao-on">Iniciar</button>
+      <button id="pausa" class="botao botao-pausar">Pausar</button>
+    </section>
+    <section>
+      <div id="malha" class="espaco-malha">
+      </div>
+    </section>
+  </main>
+  
+</body>
+<script type="module" src="src/index.js"></script>
+</html>
